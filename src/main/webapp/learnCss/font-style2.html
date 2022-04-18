@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>font-style2</title>
+    <style>
+        html{
+            font-size: 16px;
+        }
+        .content{
+            border: 1px solid blue;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .text-right{
+            text-align: right;
+        }
+        .text-left{
+            text-align: left;
+        }
+        .article{
+            line-height: 1.8em;
+            letter-spacing: 2px;
+            word-spacing: 1px;
+            text-indent: 80px;
+        }
+        .transform-case{
+            text-transform: lowercase;
+        }
+        .article > a {
+            text-decoration: none;
+        }
+        .text-shadow{
+            text-shadow: 10px 10px 10px black;
+        }
+        ul{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <p class="content text-center">안녕</p>
+    <p class="content text-right">안녕</p>
+    <p class="content text-left">안녕</p>
+</section>
+<section>
+    <p class="article">
+        싸인 생생하며, 방황하여도,
+        <span class="transform-case">Korea</span>
+        군영과 뜨거운지라, 그들의 미묘한
+        오직 봄바람이다. <a href="#">꽃</a>이 구할 없으면,
+        있으랴? 열락의 되려니와, 주는 광야에서 있다.
+    </p>
+</section>
+<section>
+    <h2 class="text-shadow">가나 다라 마바 사</h2>
+</section>
+<section>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+</section>
+</body>
+</html>
